@@ -1,3 +1,10 @@
+#' give the time
+#'
+#' @return The time
+#' @export
+#'
+#' @examples
+#' time()
 time <- function() {
   day_time <- substr(Sys.time(), 12, 19)
 
