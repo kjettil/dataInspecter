@@ -87,6 +87,7 @@ time()
 
 # Conclusion
 Key features package:
+
 - load and preview data
 - show first 10 rows
 - save data as .csv and .rds at the same time
