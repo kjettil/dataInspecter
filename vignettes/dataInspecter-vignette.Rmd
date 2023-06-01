@@ -39,7 +39,7 @@ You can install the development version of dataInspecter from [GitHub](https://g
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("kjettil/dataInspecter")
+devtools::install_github("kjettil/dataInspecter", build_vignettes = TRUE)
 ```
 
 # Usage
