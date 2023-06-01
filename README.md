@@ -26,7 +26,7 @@ You can install the development version of dataInspecter from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("kjettil/dataInspecter")
+devtools::install_github("kjettil/dataInspecter", build_vignettes = TRUE)
 ```
 
 ## Example
