@@ -1,0 +1,35 @@
+#' Tetracyclines Usage Data
+#'
+#' The tetracyclines consumption in the EU/EEA (ESAC-Net) is acquired from the European Centre for Disease Prevention and Control.
+#' The dataset contains the tetracyclines consumption in the EU/EEA from 2011 till 2020.
+#' Antimicrobial consumption (AMC) data were collected using the Anatomical Therapeutic Chemical (ATC)
+#' classification system and analysed using the defined daily dose (DDD) methodology developed by the World Health Organization (WHO)
+#' Collaborating Centre for Drug Statistics Methodology (Oslo, Norway). For the analysis,
+#' DDDs listed in the ATC Index for 2021 were used.
+#' One DDD represents the assumed average maintenance dose per day for a drug used in its main indication by adults.
+#' It is a technical unit of measurement, not a standard for appropriate use.
+#' Application of the ATC/DDD methodology makes it possible to aggregate different brands of medicines with different pack sizes and strengths into units of measurement of active substances.
+#' It represents a standard in performing valid and reliable cross-national or longitudinal studies of AMC.
+#' DDD values of some medicines may change over time because of alterations in the main indication,
+#' or regulatory amendments to the recommended or prescribed daily dose. In case of such changes,
+#' all historical data require retrospective adjustments to the latest DDD/ATC index
+#'
+#' @format A data frame with...
+#'
+#' @usage data(tetracyclines_usage)
+#'
+#' @source Data available at https://www.ecdc.europa.eu/en/publications-data/downloadable-tables-antimicrobial-consumption-annual-epidemiological-report-2020
+#'
+#' @examples
+#' data(tetracyclines_usage)
+#'
+#' @seealso
+#' The same excelsheet also contains other  Antimicrobial consumption datasets
+#'
+#' @export
+tetracyclines_usage <- read.csv("data/tetracyclines_usage.csv")
+
+
+
+
+
