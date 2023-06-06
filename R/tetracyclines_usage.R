@@ -14,7 +14,7 @@
 #' or regulatory amendments to the recommended or prescribed daily dose. In case of such changes,
 #' all historical data require retrospective adjustments to the latest DDD/ATC index
 #'
-#' @format A data frame with...
+#' @format A data frame
 #'
 #' @usage data(tetracyclines_usage)
 #'

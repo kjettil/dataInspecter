@@ -1,5 +1,5 @@
 ---
-title: "dataInspecter-vignette"
+title: "dataInspecter"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{dataInspecter-vignette}

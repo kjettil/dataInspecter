@@ -11,7 +11,7 @@ save data. Plus it can also give the time.
 
 # Functions
 
-This dataset contains four functions that can be helpful for loading,
+This package contains four functions that can be helpful for loading,
 inspecting and saving data.
 
 The four funtions are: 1: read_data_from_excel(). loads in data from
@@ -63,5 +63,4 @@ save_datafile(dataset, "test_dataset")
 
 This package comes with a dataset that shows the tetracyclines
 consumption in the EU/EEA from 2011 till 2020. ?tetracyclines_usage will
-give you usethis::use_vignette(“my-vignette”)more detailed information
-about the dataset.
+give you more detailed information about the dataset.
